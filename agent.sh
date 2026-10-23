@@ -305,7 +305,10 @@ verify_role() {
 }
 
 # fetch_verified WORKDIR: tries each mirror; on success sets B_MIRROR and
-# B_ROLE and leaves the verified files in WORKDIR.
+# B_ROLE and leaves the verified files in WORKDIR. A mirror behind a CDN can
+# serve each file a few minutes stale (raw.githubusercontent.com: up to 5
+# min), so just after a publish the bundle and its signatures can disagree.
+# That run fails and changes nothing; the next one catches up.
 fetch_verified() {
     for _m in $MIRRORS; do
         _m="${_m%/}"
