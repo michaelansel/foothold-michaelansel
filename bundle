@@ -1,10 +1,9 @@
 foothold-bundle 1
-serial 3
-issued 2026-10-23T17:36:47Z
-issued-epoch 1792777007
+serial 4
+issued 2026-10-23T17:40:50Z
+issued-epoch 1792777250
 agent-sha256 95f64a05b3fa8bf32f2de81ea2a76648d558a9c29b9f7bf5951088c89d181ec2
 ---
-key canary-test ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJI4/2+CzxZDpZQuml9NUgAcGZFOLNVkoJ8UvyaA4JbQ foothold-canary-test
 key codespace1 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOiMqe/dwuHK32Qitm8/aCH8wAijMlewcllOuaG/K4dS pi@codespace1
 key home-assistant ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCqlLb7dIsp2N+VG6wobzxXXpYBvG7NeHKymGqykJ1OzPHAhp17jnmR37vZsm3C8H9bGdmHcYmHGdoUNCxjvuQHJaK1ms+ZnWXAECbmEmUZwsyGZHnwZ8ZeKSZArLVoFDTYSCtIZ6b3N1E721Imnkmb1Uu/hzobrSo3m491wcSVDN3uljuvxjlhEaZyCI505P8e+Oi/2ACyaQVZ466B2KQOm7Jp0/iqvt06ncev/BC56/n+tO3DU+Xxb67FJ/OXN1m2wnVvoJrQW2wY4qcU6Dhi4JQNJzk09l+TG+AVnld85/TRglG4fRMDwjBTpeUCMsXKv+VUlyEwP+emezZm98o8hZ7dKu5Vha2cCtvKiOHlrl1fRzpevasswx97q6uPjxHG4kd20uopq7Q07KfF8YdYDFg2jjUJCQTmIMrhfC8Es4cgR8zBS3Ww1qYFW5uFhbNCqHUbLdSwbcJJy2Mr4LkEMDr7kRs0IZ0E1rU6EWxlIsyy/u7QDtvI6XLtMKn7/7944xELGSkplr4lKs1GFOuAwzgW3GPHbJnDqYQ+GAfzxdsux/5WYMBnHJsG6MgywMZ9f1guEbC+crvCvx9o/2rPgEYPC8RSZ8FN8q8OglMYg/gxDNSieTe/swkq18JcqExDKp0EjngU4rG//jgNXJv5DgpkIlkZXGYKfv9wQm6bzQ== home-assistant
 key iphone-shortcuts ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIM7dsCvbRSGHKDglLMru1w75YSFYwsff0hn30lsYFOza iPhone-Shortcuts.app
@@ -19,5 +18,3 @@ group me2 codespace1 michael-1password lambda-1password
 allow me me2 on *
 allow home-assistant on erx
 deny codespace1 on vm1
-allow canary-test on foothold-canary
-deny  canary-test on foothold-canary
