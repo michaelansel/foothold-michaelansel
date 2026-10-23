@@ -1,7 +1,7 @@
 foothold-bundle 1
-serial 2
-issued 2026-10-23T17:32:44Z
-issued-epoch 1792776764
+serial 3
+issued 2026-10-23T17:36:47Z
+issued-epoch 1792777007
 agent-sha256 95f64a05b3fa8bf32f2de81ea2a76648d558a9c29b9f7bf5951088c89d181ec2
 ---
 key canary-test ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJI4/2+CzxZDpZQuml9NUgAcGZFOLNVkoJ8UvyaA4JbQ foothold-canary-test
@@ -20,3 +20,4 @@ allow me me2 on *
 allow home-assistant on erx
 deny codespace1 on vm1
 allow canary-test on foothold-canary
+deny  canary-test on foothold-canary
