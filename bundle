@@ -1,7 +1,7 @@
 foothold-bundle 1
-serial 9
-issued 2026-10-27T03:01:38Z
-issued-epoch 1793070098
+serial 10
+issued 2026-10-28T03:01:22Z
+issued-epoch 1793156482
 agent-sha256 62488f4e227fe43eb1ae7f190e3f0b2f447819e132b049bfe87d493e3097fc11
 ---
 key codespace1 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOiMqe/dwuHK32Qitm8/aCH8wAijMlewcllOuaG/K4dS pi@codespace1
